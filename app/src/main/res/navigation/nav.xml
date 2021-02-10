@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/general_destination">
+
+    <fragment
+        android:id="@+id/general_destination"
+        android:name="com.example.ua.kpi.comsys.iv8310.general"
+        android:label="fragment_general"
+        tools:layout="@layout/fragment_general" />
+
+    <fragment
+        android:id="@+id/item2_destination"
+        android:name="com.example.ua.kpi.comsys.iv8310.item2"
+        android:label="fragment_item2"
+        tools:layout="@layout/fragment_item2" />
+
+</navigation>
